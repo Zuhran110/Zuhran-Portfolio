@@ -1,0 +1,35 @@
+<section class="section" id="contact">
+  <div class="container contact">
+    <div class="section-box">
+      <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="contact-pre-title big-subtitle">
+          05. What's Next?
+        </h3>
+        <h4 class="e-font contact-title big-title">
+          Get In Touch
+        </h4>
+      </div>
+      <p data-aos="fade-up" data-aos-duration="1000">
+        I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+      </p>
+      <div class="mt-5">
+        <a
+          (click)="
+            analyticsService.sendAnalyticEvent(
+              'click_send_mail',
+              'contact',
+              'email'
+            )
+          "
+          href="https://mail.google.com/mail/?view=cm&to=35305@students.riphah.edu.pk"
+          target="_blank"
+          class="main-btn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Say Hello
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
