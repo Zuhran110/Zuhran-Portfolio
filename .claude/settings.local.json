@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(copy /Y \"c:\\Users\\Zuhran Yousaf\\Desktop\\Zuhran-Portfolio\\Zuhran (Resume) (5).pdf\" \"c:\\Users\\Zuhran Yousaf\\Desktop\\Zuhran-Portfolio\\src\\assets\\cv\\zuhran_resume.pdf\")"
+    ]
+  }
+}
